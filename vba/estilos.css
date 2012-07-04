@@ -1,0 +1,292 @@
+.fondo { background-color:#FFFFFF; }
+/*link, visited:tama�=none; color=azul; fondo=none; resaltado=none*/
+a:link, A:visited {
+ 	border:0px;
+ 	color: #b50f0f;
+	text-decoration:none;
+}
+/*hover(resaltado on mouseover):tama�=none; color=azul; fondo=none; resaltado=none*/
+a:hover {
+ 	color:#818181;
+ 	border:0px;
+	text-decoration:none;
+}
+
+.main {
+	background-color:transparent;
+	border-width:0px;
+	padding:0%;
+	margin:0%;
+}
+
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+input.search {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #b50f0f;
+	background-color:#FFFFFF;
+	vertical-align: bottom;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.searchButton {
+	font-size: 10px;
+	color: #b50f0f;
+	vertical-align: bottom;
+	background-color:#FFFFFF;
+}
+select {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#b50f0f;
+	background-color:#F8F8F8;
+	padding-left:2px;
+	padding-right:2px;
+	border-width:1px;
+	border-bottom-color:#111111;
+}
+p {
+	font-size:9pt;
+	text-align:justify;
+}
+
+.centrado {	text-align:center; }
+.izquierda { text-align:left; }
+.derecha { text-align:right; }
+
+
+a.menu_main_link_l:link, a.menu_main_link_l:visited {
+	display: block;
+  	vertical-align: middle;
+	font-size: 10px;
+	font-weight: bold;
+	color: #ffffff/*#686a69*/;
+	text-align: left;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	height: 10px !important;
+	height: 12px;
+	width: 146px;
+	text-decoration: none;
+}
+a.menu_main_link_r:link, a.menu_main_link_r:visited {
+	display: block;
+  vertical-align: middle;
+	font-size: 10px;
+	font-weight: bold;
+	color: #00F/*#686a69*/;
+	text-align: left;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	height: 10px !important;
+	height: 12px;
+	width: 176px;
+	text-decoration: none;
+}
+a.menu_main_link_8:link, a.menu_main_link_r:visited {
+	display: block;
+  	vertical-align: middle;
+	font-size: 10px;
+	font-weight: bold;
+	color: #990033/*#686a69*/;
+	text-align: left;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	height: 10px !important;
+	height: 12px;
+	width: 146px;
+	text-decoration: none;
+}
+/* Aqui va el Menu Principal el color de letra cuando el puntero se para sobre
+ella*/
+a.menu_main_link_l:hover {
+	background-position: 0px -26px;
+	font-size: 10px;
+	font-weight: bold;
+ 	text-decoration: none;
+	color: #000000;
+	background: #FFFFFF;
+}
+
+a.menu_main_link_r:hover {
+	background-position: 0px -26px;
+ 	text-decoration: none;
+  	color: #000000;
+	background: #FFFFFF;
+}
+
+
+/* Menu Principal Lateral Izquierdo */
+.menu_main {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFFFFF;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.menu_main_r {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFFFFF;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+td.menu_main
+{
+	background: url("fondo_left.jpg"/*tpa=http://www.tupasaporterapido.com/pagina/ccs/fondo_left.jpg*//*tpa=http://www.me.gob.ve/images/fondo_left.jpg*/) ;
+	border-width: 1px;
+	border-bottom-style: solid;
+}
+
+td.menu_main_r
+{
+	background: url("fondo_right.jpg"/*tpa=http://www.tupasaporterapido.com/pagina/ccs/fondo_right.jpg*//*tpa=http://www.me.gob.ve/images/fondo_right.jpg*/) ;
+	border-width: 1px;
+	border-bottom-style: solid;
+}
+/*a.menu_main_link:link { color: #FFFFFF; }
+a.menu_main_link:visited { color: #FFFFFF; }
+a.menu_main_link:hover { color:#3383FF; text-decoration: underline; }
+*/
+.tit_menu_main {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #ffffff;
+	padding-left: 6px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-weight:bold;
+}
+a.tit_menu_main:link, a.tit_menu_main:visited {
+	color:#FFFFFF;
+}
+a.tit_menu_main:hover {
+	font-size:11px;
+	color:#000000;
+}
+
+.tit_menu_main2 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#CD0000;
+	padding-left: 10px;
+	padding-right: 6px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+a.tit_menu_main2:link, a.tit_menu_main:visited {
+	color:#FFFFFF;
+}
+a.tit_menu_main2:hover {
+	font-size:10px;
+	color:#000000;
+}
+.nota_menu_main {
+	font-size:9px;
+	color: #063;
+	padding-left: 8px;
+	padding-right: 8px;
+/*	font-weight:bold;*/
+}
+
+.tituloNoticia {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #063;
+	padding-left: 8px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-weight:bold;
+}
+
+.tituloNoticia1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#b50f0f;
+	padding-left: 8px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-weight:bold;
+}
+.menu {
+	color : #FFFFFF;
+	font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;
+	font-weight: bold;
+}
+.menu a {
+	color : #FFFFFF;
+	text-decoration: none;
+}
+.menu a:hover {
+	color : #FFFFFF;
+}
+
+.titulo2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#b50f0f;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	vertical-align: middle;
+	font-weight:bold;
+}
+.titulo3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:##5C5C5C;
+}
+.Estilo7 {
+	font-family: Arial, Helvetica, sans-serif, "MS sans serif";
+	font-size: 11px;
+	line-height: 15px;
+	padding-left: 8px;
+	padding-right: 8px;
+	color:#FF0000;
+}
+
+.texto1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#b50f0f;
+	padding-left: 8px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}
+.boxcolor {
+	background:#666666;
+	color: #ffffff;
+}
+
+.boxcolor2 {
+	background: #999999;
+	color:#ffffff;
+	font-size:14px
+}
+.boxcolor3 {
+	background: #666666;
+	color:#ffffff;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:22px
+	
+}
